@@ -1,0 +1,44 @@
+{
+  "name": "phaser3-ts-plugin",
+  "version": "1.0.0",
+  "description": "phaser 3 plugin template in typescript",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkkis/phaser3-ts-plugin.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "typescript",
+    "plugin",
+    "template"
+  ],
+  "author": "Kristian Koivisto-Kokko <pinkkis@gmail.com> (http://pinkkis.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinkkis/phaser3-ts-plugin/issues"
+  },
+  "homepage": "https://github.com/pinkkis/phaser3-ts-plugin#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "cross-env": "^5.2.0",
+    "raw-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.2.1",
+    "ts-loader": "^5.3.2",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
